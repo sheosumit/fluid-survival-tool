@@ -14,5 +14,5 @@
 
 = Execution =
 
-  * Assume the executable is in the current folder, run the executable with the command: ./FST [path_to_model]/[modelfilename] [fluid_place]
+  * Assume the executable is in the current folder, run the executable with the command: ./FST path_to_model/modelfilename.m fluid_place_name
   * If GNU plot is installed correctly a 3D plot should pop-up. Also a file is generated that contains the information that is in the plot.
