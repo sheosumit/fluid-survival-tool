@@ -3,7 +3,12 @@
 
 = Installation =
 
-  * Install a version of GNU plot -> sudo apt-get install gnuplot
+  * Install GNU plot and libmatheval in the software centre or in the terminal 
+`> sudo apt-get install gnuplot-x11 libmatheval1`
+  * Make sure you have the right binary executable, x86_64 is 64-bit version x86 is 32-bit version.
+`> uname -a`
+  * Make the file executable if that is not the case. Go to the directory of the executable binary file in your terminal and type:
+`> sudo chmod +x ./HPnG`.
   * Download the most recent executable file from the download tab http://code.google.com/p/fluid-survival-tool/downloads/list or compile your code from the source in the SVN from http://code.google.com/p/fluid-survival-tool/source/checkout .
   * Please report all the bugs, desired features or unexpected behaviour you encounter by creating an new issue http://code.google.com/p/fluid-survival-tool/issues/list .
 
