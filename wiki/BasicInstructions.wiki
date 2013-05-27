@@ -5,6 +5,8 @@
 
   * Install GNU plot and libmatheval in the software centre or in the terminal 
 `> sudo apt-get install gnuplot-x11 libmatheval1`
+  * A version of QT Core and QT GUI might be required to install
+`> sudo apt-get install libqtcore4 libqtgui4`
   * Make sure you have the right binary executable, x86_64 is 64-bit version x86 is 32-bit version.
 `> uname -a`
   * Make the file executable if that is not the case. Go to the directory of the executable binary file in your terminal and type:
