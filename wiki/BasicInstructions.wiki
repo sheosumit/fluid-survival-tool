@@ -5,9 +5,9 @@
 
   * Install GNU plot and libmatheval in the software centre or in the terminal 
 `> sudo apt-get install gnuplot-x11 libmatheval1`
-  * A version of QT Core and QT GUI might be required to install
+  * A version of QT Core and QT GUI might be required to install for the GUI version
 `> sudo apt-get install libqtcore4 libqtgui4`
-  * Make sure you have the right binary executable, x86_64 is 64-bit version x86 is 32-bit version.
+  * Make sure you have the right binary executable, x86_64 is 64-bit version x86 is 32-bit version. (The GUI version only supports 64-bit)
 `> uname -a`
   * Make the file executable if that is not the case. Go to the directory of the executable binary file in your terminal and type:
 `> sudo chmod +x ./HPnG`.
@@ -23,3 +23,4 @@
 
   * Assume the executable is in the current folder, run the executable with the command: ./HPnG path_to_model/modelfilename.m fluid_place_name
   * If GNU plot is installed correctly a 3D plot should pop-up. Also a file is generated that contains the information that is in the plot.
+  * If you use the latest GUI version of the tool you can run it either through the terminal or by double clicking ./FST
